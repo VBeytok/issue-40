@@ -1,0 +1,21 @@
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+"preserve_hierarchy": true
+
+#
+# Files configuration
+#
+files: [
+ {
+  "source" : "/translate/*.*",
+  "translation" : "/translations/%two_letters_code%/%original_file_name%",
+  languages_mapping": {
+      two_letters_code: {
+        zh-CN: zh_Hans,
+        zh-TW: zh_Hant,
+        en-UD: xx_LR,
+      }
+ }
+]

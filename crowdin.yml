@@ -1,6 +1,7 @@
-project_id_env: CROWDIN_PROJECT_ID
-api_token_env: CROWDIN_PERSONAL_TOKEN
-preserve_hierarchy: true
+"project_id_env": CROWDIN_PROJECT_ID
+"api_token_env": CROWDIN_PERSONAL_TOKEN
+"preserve_hierarchy": true
+
 
 #
 # Files configuration
@@ -9,11 +10,5 @@ files: [
  {
   "source" : "/translate/*.*",
   "translation" : "/translations/%two_letters_code%/%original_file_name%",
-  languages_mapping": {
-      two_letters_code: {
-        zh-CN: zh_Hans,
-        zh-TW: zh_Hant,
-        en-UD: xx_LR,
-      }
- }
+}
 ]

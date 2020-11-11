@@ -19,12 +19,12 @@ jobs:
       uses: actions/checkout@v2
     
     - name: Upload or update source files to Crowdin
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: true
 
     - name: Download Chinese (simplified) translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true
@@ -40,7 +40,7 @@ jobs:
         pull_request_labels: 'internationalization'
 
     - name: Download French translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true
@@ -56,7 +56,7 @@ jobs:
         pull_request_labels: 'internationalization'
 
     - name: Download German translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true
@@ -72,7 +72,7 @@ jobs:
         pull_request_labels: 'internationalization'
 
     - name: Download Indonesian translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true
@@ -88,7 +88,7 @@ jobs:
         pull_request_labels: 'internationalization'
 
     - name: Download Italian translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true
@@ -104,7 +104,7 @@ jobs:
         pull_request_labels: 'internationalization'
 
     - name: Download Te Reo Māori translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true
@@ -120,7 +120,7 @@ jobs:
         pull_request_labels: 'internationalization'
 
     - name: Download Turkish translations
-      uses: crowdin/github-action@1.0.10
+      uses: crowdin/github-action@1.0.11
       with:
         upload_sources: false
         download_translations: true

@@ -38,7 +38,7 @@ jobs:
         # global options
         config: 'language/crowdin.yml'
 
-        dryrun_action: true
+        dryrun_action: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}

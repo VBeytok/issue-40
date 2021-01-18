@@ -9,6 +9,6 @@ base_path : "language"
 files: [
  {
   "source" : "/translate/*.*",
-  "translation" : "/translations/%two_letters_code%/%original_file_name%",
+  "translation" : "/translations/%locale%/%original_file_name%",
 }
 ]

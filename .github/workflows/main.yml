@@ -3,7 +3,7 @@ name: Crowdin Action
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ main ]
+    branches: [ l10n-to-crowdin ]
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,20 +25,20 @@ jobs:
     - name: crowdin action
       uses: crowdin/github-action@1.0.16
       with:
-        # upload options
-        upload_sources: true
-        # upload translations options
-        upload_translations: true
+        debug_mode: true
 
-        # download translations options
+        crowdin_branch_name: l10n-to-crowdin
+        pull_request_base_branch_name: l10n-to-crowdin
+        localization_branch_name: l10n-from-crowdin
+        upload_translations: false
         download_translations: true
-        push_translations: true
-        localization_branch_name: 'l10n_crowdin_translations'
-        create_pull_request: true
+        skip_untranslated_strings: false
+        export_only_approved: false
+        import_eq_suggestions: true
         # global options
         config: 'language/crowdin.yml'
 
-        dryrun_action: false
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}

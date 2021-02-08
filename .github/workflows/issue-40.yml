@@ -30,8 +30,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'zh-CN'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update Chinese (simplified) Crowdin translations by Github Action'
         localization_branch_name: translation-zh-cn
@@ -49,8 +47,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'fr'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update French Crowdin translations by Github Action'
         localization_branch_name: translation-fr
@@ -69,8 +65,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'de'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update German Crowdin translations by Github Action'
         localization_branch_name: translation-de
@@ -89,8 +83,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'id'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update Indonesian Crowdin translations by Github Action'
         localization_branch_name: translation-id
@@ -109,8 +101,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'it'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update Italian Crowdin translations by Github Action'
         localization_branch_name: translation-it
@@ -129,8 +119,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'mi'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update Te Reo Māori Crowdin translations by Github Action'
         localization_branch_name: translation-mi
@@ -149,8 +137,6 @@ jobs:
         upload_sources: false
         download_translations: true
         download_language: 'tr'
-        skip_untranslated_files: true
-        export_only_approved: true
         push_translations: true
         commit_message: 'Update Turkish Crowdin translations by Github Action'
         localization_branch_name: translation-tr

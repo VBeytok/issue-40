@@ -1,4 +1,4 @@
-name: Synchronise with Crowdin
+name: Synchronise with Crowdin Small
 
 on:
   workflow_dispatch:

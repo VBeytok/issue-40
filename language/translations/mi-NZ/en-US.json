@@ -1,0 +1,50 @@
+{
+  "remainingBoostTextPlural": {
+    "description": "remaining boosts text",
+    "message": "You still have {availableBoosts, plural, =0 {} one {{availableBoostsWrapper} Boost} other {{availableBoostsWrapper} Boosts}} left."
+  },
+  "boostDescription": {
+    "description": "text explanation of boosting",
+    "message": "Be the top profile for one hour to get more matches"
+  },
+  "boostActiveDescription": {
+    "description": "text explanation of active boost",
+    "message": "Keep searching to receive views"
+  },
+  "boost3TimesMore": {
+    "description": "get 3x as more with boost",
+    "message": "Get 3x more visibility with boost"
+  },
+  "getABoost": {
+    "description": "get a boost",
+    "message": "Get a boost"
+  },
+  "seeViews": {
+    "description": "see views",
+    "message": "See views"
+  },
+  "boostAgain": {
+    "description": "boost again text",
+    "message": "Boost again"
+  },
+  "boostMe": {
+    "description": "boost me text",
+    "message": "Boost me"
+  },
+  "unhideAndBoostAgain": {
+    "description": "unhide and boost button text",
+    "message": "Unhide & boost again"
+  },
+  "unhideAndBoostMe": {
+    "description": "unhide and boost button text",
+    "message": "Unhide & boost me"
+  },
+  "boostTitle": {
+    "description": "ad title",
+    "message": "Boost"
+  },
+  "boostActiveRemaining": {
+    "description": "<TIME> remaining in boost",
+    "message": "remaining in boost"
+  }
+}

@@ -1,22 +1,28 @@
 name: Synchronise with Crowdin
+
 on:
   workflow_dispatch:
+
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
 jobs:
   synchronise-with-crowdin:
     runs-on: ubuntu-20.04
+
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+
     - name: Upload or update source files to Crowdin
       uses: VBeytok/crowdin-action@master
       with:
         debug_mode: true
         upload_sources: true
         config: 'language/crowdin.yml'
+
     - name: Download Chinese (simplified) translations
       uses: VBeytok/crowdin-action@master
       with:
@@ -31,7 +37,6 @@ jobs:
         pull_request_title: 'Update Chinese (simplified) language translations'
         pull_request_body: 'This pull request will add/update Chinese (simplified) language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'
 
     - name: Download French translations
@@ -48,7 +53,6 @@ jobs:
         pull_request_title: 'Update French language translations'
         pull_request_body: 'This pull request will add/update French language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'
 
     - name: Download German translations
@@ -66,7 +70,6 @@ jobs:
         pull_request_title: 'Update German language translations'
         pull_request_body: 'This pull request will add/update German language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'
 
     - name: Download Indonesian translations
@@ -84,7 +87,6 @@ jobs:
         pull_request_title: 'Update Indonesian language translations'
         pull_request_body: 'This pull request will add/update Indonesian language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'
 
     - name: Download Italian translations
@@ -102,7 +104,6 @@ jobs:
         pull_request_title: 'Update Italian language translations'
         pull_request_body: 'This pull request will add/update Italian language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'
 
     - name: Download Te Reo Māori translations
@@ -120,13 +121,13 @@ jobs:
         pull_request_title: 'Update Te Reo Māori language translations'
         pull_request_body: 'This pull request will add/update Te Reo Māori language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'
 
     - name: Download Turkish translations
       uses: VBeytok/crowdin-action@master
       with:
         debug_mode: true
+
         upload_sources: false
         download_translations: true
         download_language: 'tr'
@@ -137,5 +138,4 @@ jobs:
         pull_request_title: 'Update Turkish language translations'
         pull_request_body: 'This pull request will add/update Turkish language files from Crowdin.'
         pull_request_labels: 'internationalization'
-        pull_request_base_branch_name: develop
         config: 'language/crowdin.yml'

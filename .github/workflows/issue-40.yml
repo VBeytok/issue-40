@@ -19,11 +19,13 @@ jobs:
     - name: Upload or update source files to Crowdin
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
         upload_sources: true
 
     - name: Download Chinese (simplified) translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
         upload_sources: false
         download_translations: true
         download_language: 'zh-CN'
@@ -42,6 +44,7 @@ jobs:
     - name: Download French translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
         upload_sources: false
         download_translations: true
         download_language: 'fr'
@@ -60,6 +63,8 @@ jobs:
     - name: Download German translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
+        
         upload_sources: false
         download_translations: true
         download_language: 'de'
@@ -78,6 +83,8 @@ jobs:
     - name: Download Indonesian translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
+        
         upload_sources: false
         download_translations: true
         download_language: 'id'
@@ -96,6 +103,8 @@ jobs:
     - name: Download Italian translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
+        
         upload_sources: false
         download_translations: true
         download_language: 'it'
@@ -114,6 +123,8 @@ jobs:
     - name: Download Te Reo Māori translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
+        
         upload_sources: false
         download_translations: true
         download_language: 'mi'
@@ -132,6 +143,8 @@ jobs:
     - name: Download Turkish translations
       uses: crowdin/github-action@1.0.17
       with:
+        debug_mode: true
+
         upload_sources: false
         download_translations: true
         download_language: 'tr'

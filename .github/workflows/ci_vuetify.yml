@@ -100,6 +100,7 @@ jobs:
       - name: Download eo-UY
         uses: crowdin/github-action@1.0.19
         with:
+          debug_mode: true
           config: crowdin.yml
           upload_sources: false
           download_translations: true
@@ -112,6 +113,7 @@ jobs:
       - name: Download ja
         uses: crowdin/github-action@1.0.19
         with:
+          debug_mode: true
           config: crowdin.yml
           upload_sources: false
           download_translations: true
@@ -124,6 +126,7 @@ jobs:
       - name: Download zh-CN
         uses: crowdin/github-action@1.0.19
         with:
+          debug_mode: true
           config: crowdin.yml
           upload_sources: false
           download_translations: true

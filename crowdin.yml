@@ -8,4 +8,4 @@ files:
   - source: packages/docs/src/pages/en/**/*.md
     translation: packages/docs/src/pages/%locale%/**/%original_file_name%
   - source: packages/docs/src/i18n/messages/en.json
-    translation: packages/docs/src/i18n/messages/en.json
+    translation: packages/docs/src/i18n/messages/%locale%.json

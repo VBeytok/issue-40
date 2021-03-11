@@ -18,6 +18,6 @@ preserve_hierarchy: true
 "files": [
   {
       "source": "/translate/*",                                          #source files filter
-      "translation": "/translations/%two_letters_code%/**/%original_file_name%"        #where translations are stored
+      "translation": "/translations/%two_letters_code%/%original_file_name%"        #where translations are stored
   }
 ]

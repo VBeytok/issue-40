@@ -24,11 +24,13 @@ jobs:
       with:
         debug_mode: true
 
-        crowdin_branch_name: beytok
-        pull_request_base_branch_name: l10n-beytok
-        localization_branch_name: l10n-beytok
+        crowdin_branch_name: l10n-to-crowdin
+        pull_request_base_branch_name: l10n-to-crowdin
+        localization_branch_name: l10n-from-crowdin
         upload_translations: false
         download_translations: true
+        skip_untranslated_strings: false
+        export_only_approved: false
         # global options
         config: 'language/crowdin.yml'
 

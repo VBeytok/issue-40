@@ -11,12 +11,12 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 #   "translation" : "/translations/%locale%/%original_file_name%",
 # }
 # ]
-
+base_path: "/beytok_branch"
 preserve_hierarchy: true
 
 "files": [
   {
-      "source": "/beytok_branch/translate/*.*",                                          #source files filter
-      "translation": "/beytok_branch/translations/%two_letters_code%/%original_file_name%"        #where translations are stored
+      "source": "translate/*.*",                                          #source files filter
+      "translation": "translations/%two_letters_code%/%original_file_name%"        #where translations are stored
   }
 ]

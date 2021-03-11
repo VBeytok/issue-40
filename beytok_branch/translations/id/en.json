@@ -1,0 +1,206 @@
+{
+  "phone-number-screen": {
+    "title": "Verify your number",
+    "intro-text": "Please confirm your country code and enter your phone number",
+    "number-placeholder": "Your phone number",
+    "options": {
+      "de": "Germany",
+      "it": "Italy",
+      "fr": "France",
+      "nl": "Netherlands"
+    },
+    "alert": {
+      "welcome": "Welcome to Choco",
+      "invalid-title": "Invalid phone number",
+      "invalid-desc": "The number you've entered is not a valid mobile phone number.",
+      "connection-error-title": "No connection to Choco",
+      "connection-error-desc": "We couldn't connect you to the Choco Server. Please try again in 15 minutes",
+      "dismiss": "Dismiss",
+      "retry": "Retry"
+    },
+    "done": "Done",
+    "search": "Search"
+  },
+  "profile-form-signup-screen": {
+    "title": "Your profile",
+    "done": "Done",
+    "name-text-input": {
+      "title": "Name",
+      "placeholder": "Your full name"
+    },
+    "company-name-text-input": {
+      "title": "Company name",
+      "placeholder": "The company you work for"
+    },
+    "role-text-input": {
+      "title": "Position",
+      "placeholder": "Your position at the company"
+    },
+    "email-text-input": {
+      "title": "Email",
+      "placeholder": "Your email address"
+    }
+  },
+  "waiting-for-invitation-screen": {
+    "title": "Welcome",
+    "content": {
+      "title": "Welcome to Choco! 🎉",
+      "description": "Thank you for your interest in using Choco. We will be in touch very soon to help you start using the app.",
+      "contact": "Questions? Please get in touch at contact@choco.app."
+    },
+    "done": "OK"
+  },
+  "activation-code-screen": {
+    "title": "Enter code",
+    "sms-sent": "We have sent you an SMS with a code to {{number}}.",
+    "enter-code": "To complete your phone number verification, please enter 4-digit activation code.",
+    "alert": {
+      "no-connection-title": "No connection to Choco",
+      "no-connection-desc": "We couldn't connect you to the Choco Server. Please try again in 15 minutes",
+      "wrong-code-title": "Code incorrect",
+      "wrong-code-desc": "The code you've entered is not correct. Please check your SMS and try again.",
+      "resend": "Resend SMS",
+      "dismiss": "Dismiss",
+      "retry": "Retry"
+    }
+  },
+  "settings-screen": {
+    "title": "Settings",
+    "restart": "Restart App",
+    "update": "A new update is available",
+    "update-contacts": "Update contacts",
+    "logout": "Logout"
+  },
+  "contacts-screen": {
+    "title": "New Chat",
+    "new-group": "New Group",
+    "suppliers": "Suppliers",
+    "permission-title": "Choco doesn't have access to your contacts.",
+    "permission-desc": "Choco needs access to your phone's contacts to help you connect with other people on Choco. To enable access, tap Settings and turn on Contacts."
+  },
+  "chats-screen": {
+    "title": "Chats",
+    "new-order": "New order",
+    "welcome-title": "Welcome to Choco",
+    "welcome-desc": "Order and chat with your food and drinks suppliers. Fast and easy!",
+    "welcome-button": "Start chatting!"
+  },
+  "edit-user-screen": {
+    "title": "Edit user",
+    "edit": "Edit"
+  },
+  "messages-screen": {
+    "title": "Chats",
+    "chat-input": "Type a message",
+    "order-message": {
+      "order": "Order",
+      "notes": "Notes"
+    },
+    "welcome-message": "Welcome to your new chat. Tap the order icon on the top right to make your first order.",
+    "retry": "Retry",
+    "delete-message": "Delete Message",
+    "delete-order": "Delete Order",
+    "show-order": "Show Order"
+  },
+  "order-details-screen": {
+    "title": "Order",
+    "reorder": "Reorder"
+  },
+  "order-form-edit-screen": {
+    "title": "Product List",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "update": "Update product list",
+    "alert-update-fail-title": "Update failed",
+    "alert-update-fail-desc": "Products could not be downloaded. Please try again later.",
+    "alert-update-fail-dismiss": "Dismiss",
+    "no-results": "No results found",
+    "your-list": "Your List",
+    "alert": {
+      "delete-title": "Are you sure you want to delete this product?",
+      "delete-many-title": "Are you sure you want to delete these {{number}} products?",
+      "delete-all-title": "Are you sure you want to delete ALL products?",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "add-products": "+ Add Products",
+    "delete-list": "Delete List"
+  },
+  "order-form-screen": {
+    "title": "Order List",
+    "edit": "Edit",
+    "action-text": "Review order",
+    "empty-products-title": "Your order list is empty",
+    "empty-products-desc": "Add products to your list to start ordering from your supplier.",
+    "empty-products-button": "Start adding products!",
+    "search": "Search",
+    "no-results": "No results found",
+    "your-list": "Your List",
+    "add-products": "Add Products"
+  },
+  "order-review-screen": {
+    "title": "Review order",
+    "notes-placeholder": "Order notes",
+    "order-body": "Order {{date}}",
+    "order-button": "Order now",
+    "list-title": "Your order"
+  },
+  "new-group-screen": {
+    "title": "New Group",
+    "members": "Members",
+    "search": "Type name",
+    "supplier": "Supplier",
+    "continue": "Continue",
+    "invite-choco": "Invite to Choco",
+    "modal-title": "Invite to Choco",
+    "modal-subtitle": "Is this contact a supplier?",
+    "modal-checkbox-yes": "Yes",
+    "modal-checkbox-no": "No",
+    "modal-confirm-button": "Invite",
+    "modal-e-mail": "E-Mail",
+    "modal-e-mail-placeholder": "name@example.com"
+  },
+  "group-info-screen": {
+    "title": "Group Info",
+    "groupname": "Group Name",
+    "members": "Members",
+    "done": "Done"
+  },
+  "user-profile-screen": {
+    "title": "Profile Info",
+    "name": "Name",
+    "phone-number": "Phone Number",
+    "email": "E-Mail",
+    "business-infos-title": "Business Information",
+    "business-name": "Business Name",
+    "business-position": "Position",
+    "supplier-infos-title": "Delivery Information",
+    "supplier-min-amount": "Minimum Amount",
+    "supplier-delivery-costs": "Delivery Costs",
+    "supplier-cut-off": "Cut-Off time",
+    "choose-photo": "Choose Photo",
+    "take-photo": "Take Photo",
+    "delete-photo": "Delete Photo",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "save": "Save"
+  },
+  "components": {
+    "connection-status": {
+      "offline": "Offline"
+    }
+  },
+  "add-product-screen": {
+    "title-add": "Add Product",
+    "title-edit": "Edit Product Info",
+    "product-name": "Product name",
+    "product-name-placeholder": "E.g. Natural Mineral Water",
+    "units": "Units",
+    "units-placeholder": "E.g. Bottles",
+    "id-product": "Product ID",
+    "id-product-placeholder": "Example123",
+    "done": "Done",
+    "cancel": "Cancel",
+    "delete-product": "Delete Product"
+  }
+}

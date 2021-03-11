@@ -28,7 +28,6 @@ jobs:
         debug_mode: true
         
         crowdin_branch_name: beytok
-        pull_request_base_branch_name: l10n-beytok
         localization_branch_name: l10n-beytok
         upload_translations: false
         download_translations: true

@@ -1,0 +1,206 @@
+{
+  "phone-number-screen": {
+    "title": "crwdns122708:0crwdne122708:0",
+    "intro-text": "crwdns122710:0crwdne122710:0",
+    "number-placeholder": "crwdns122712:0crwdne122712:0",
+    "options": {
+      "de": "crwdns122714:0crwdne122714:0",
+      "it": "crwdns122716:0crwdne122716:0",
+      "fr": "crwdns122718:0crwdne122718:0",
+      "nl": "crwdns122720:0crwdne122720:0"
+    },
+    "alert": {
+      "welcome": "crwdns122722:0crwdne122722:0",
+      "invalid-title": "crwdns122724:0crwdne122724:0",
+      "invalid-desc": "crwdns122726:0crwdne122726:0",
+      "connection-error-title": "crwdns122728:0crwdne122728:0",
+      "connection-error-desc": "crwdns122730:0crwdne122730:0",
+      "dismiss": "crwdns122732:0crwdne122732:0",
+      "retry": "crwdns122734:0crwdne122734:0"
+    },
+    "done": "crwdns122736:0crwdne122736:0",
+    "search": "crwdns122738:0crwdne122738:0"
+  },
+  "profile-form-signup-screen": {
+    "title": "crwdns122740:0crwdne122740:0",
+    "done": "crwdns122742:0crwdne122742:0",
+    "name-text-input": {
+      "title": "crwdns122744:0crwdne122744:0",
+      "placeholder": "crwdns122746:0crwdne122746:0"
+    },
+    "company-name-text-input": {
+      "title": "crwdns122748:0crwdne122748:0",
+      "placeholder": "crwdns122750:0crwdne122750:0"
+    },
+    "role-text-input": {
+      "title": "crwdns122752:0crwdne122752:0",
+      "placeholder": "crwdns122754:0crwdne122754:0"
+    },
+    "email-text-input": {
+      "title": "crwdns122756:0crwdne122756:0",
+      "placeholder": "crwdns122758:0crwdne122758:0"
+    }
+  },
+  "waiting-for-invitation-screen": {
+    "title": "crwdns122760:0crwdne122760:0",
+    "content": {
+      "title": "crwdns122762:0crwdne122762:0",
+      "description": "crwdns122764:0crwdne122764:0",
+      "contact": "crwdns122766:0crwdne122766:0"
+    },
+    "done": "crwdns122768:0crwdne122768:0"
+  },
+  "activation-code-screen": {
+    "title": "crwdns122770:0crwdne122770:0",
+    "sms-sent": "crwdns122772:0{{number}}crwdne122772:0",
+    "enter-code": "crwdns122774:0crwdne122774:0",
+    "alert": {
+      "no-connection-title": "crwdns122776:0crwdne122776:0",
+      "no-connection-desc": "crwdns122778:0crwdne122778:0",
+      "wrong-code-title": "crwdns122780:0crwdne122780:0",
+      "wrong-code-desc": "crwdns122782:0crwdne122782:0",
+      "resend": "crwdns122784:0crwdne122784:0",
+      "dismiss": "crwdns122786:0crwdne122786:0",
+      "retry": "crwdns122788:0crwdne122788:0"
+    }
+  },
+  "settings-screen": {
+    "title": "crwdns122790:0crwdne122790:0",
+    "restart": "crwdns122792:0crwdne122792:0",
+    "update": "crwdns122794:0crwdne122794:0",
+    "update-contacts": "crwdns122796:0crwdne122796:0",
+    "logout": "crwdns122798:0crwdne122798:0"
+  },
+  "contacts-screen": {
+    "title": "crwdns122800:0crwdne122800:0",
+    "new-group": "crwdns122802:0crwdne122802:0",
+    "suppliers": "crwdns122804:0crwdne122804:0",
+    "permission-title": "crwdns122806:0crwdne122806:0",
+    "permission-desc": "crwdns122808:0crwdne122808:0"
+  },
+  "chats-screen": {
+    "title": "crwdns122810:0crwdne122810:0",
+    "new-order": "crwdns122812:0crwdne122812:0",
+    "welcome-title": "crwdns122814:0crwdne122814:0",
+    "welcome-desc": "crwdns122816:0crwdne122816:0",
+    "welcome-button": "crwdns122818:0crwdne122818:0"
+  },
+  "edit-user-screen": {
+    "title": "crwdns122820:0crwdne122820:0",
+    "edit": "crwdns122822:0crwdne122822:0"
+  },
+  "messages-screen": {
+    "title": "crwdns122824:0crwdne122824:0",
+    "chat-input": "crwdns122826:0crwdne122826:0",
+    "order-message": {
+      "order": "crwdns122828:0crwdne122828:0",
+      "notes": "crwdns122830:0crwdne122830:0"
+    },
+    "welcome-message": "crwdns122832:0crwdne122832:0",
+    "retry": "crwdns122834:0crwdne122834:0",
+    "delete-message": "crwdns122836:0crwdne122836:0",
+    "delete-order": "crwdns122838:0crwdne122838:0",
+    "show-order": "crwdns122840:0crwdne122840:0"
+  },
+  "order-details-screen": {
+    "title": "crwdns122842:0crwdne122842:0",
+    "reorder": "crwdns122844:0crwdne122844:0"
+  },
+  "order-form-edit-screen": {
+    "title": "crwdns122846:0crwdne122846:0",
+    "cancel": "crwdns122848:0crwdne122848:0",
+    "delete": "crwdns122850:0crwdne122850:0",
+    "update": "crwdns122852:0crwdne122852:0",
+    "alert-update-fail-title": "crwdns122854:0crwdne122854:0",
+    "alert-update-fail-desc": "crwdns122856:0crwdne122856:0",
+    "alert-update-fail-dismiss": "crwdns122858:0crwdne122858:0",
+    "no-results": "crwdns122860:0crwdne122860:0",
+    "your-list": "crwdns122862:0crwdne122862:0",
+    "alert": {
+      "delete-title": "crwdns122864:0crwdne122864:0",
+      "delete-many-title": "crwdns122866:0{{number}}crwdne122866:0",
+      "delete-all-title": "crwdns122868:0crwdne122868:0",
+      "delete": "crwdns122870:0crwdne122870:0",
+      "cancel": "crwdns122872:0crwdne122872:0"
+    },
+    "add-products": "crwdns122874:0crwdne122874:0",
+    "delete-list": "crwdns122876:0crwdne122876:0"
+  },
+  "order-form-screen": {
+    "title": "crwdns122878:0crwdne122878:0",
+    "edit": "crwdns122880:0crwdne122880:0",
+    "action-text": "crwdns122882:0crwdne122882:0",
+    "empty-products-title": "crwdns122884:0crwdne122884:0",
+    "empty-products-desc": "crwdns122886:0crwdne122886:0",
+    "empty-products-button": "crwdns122888:0crwdne122888:0",
+    "search": "crwdns122890:0crwdne122890:0",
+    "no-results": "crwdns122892:0crwdne122892:0",
+    "your-list": "crwdns122894:0crwdne122894:0",
+    "add-products": "crwdns122896:0crwdne122896:0"
+  },
+  "order-review-screen": {
+    "title": "crwdns122898:0crwdne122898:0",
+    "notes-placeholder": "crwdns122900:0crwdne122900:0",
+    "order-body": "crwdns122902:0{{date}}crwdne122902:0",
+    "order-button": "crwdns122904:0crwdne122904:0",
+    "list-title": "crwdns122906:0crwdne122906:0"
+  },
+  "new-group-screen": {
+    "title": "crwdns122908:0crwdne122908:0",
+    "members": "crwdns122910:0crwdne122910:0",
+    "search": "crwdns122912:0crwdne122912:0",
+    "supplier": "crwdns122914:0crwdne122914:0",
+    "continue": "crwdns122916:0crwdne122916:0",
+    "invite-choco": "crwdns122918:0crwdne122918:0",
+    "modal-title": "crwdns122920:0crwdne122920:0",
+    "modal-subtitle": "crwdns122922:0crwdne122922:0",
+    "modal-checkbox-yes": "crwdns122924:0crwdne122924:0",
+    "modal-checkbox-no": "crwdns122928:0crwdne122928:0",
+    "modal-confirm-button": "crwdns122932:0crwdne122932:0",
+    "modal-e-mail": "crwdns122934:0crwdne122934:0",
+    "modal-e-mail-placeholder": "crwdns122938:0crwdne122938:0"
+  },
+  "group-info-screen": {
+    "title": "crwdns122942:0crwdne122942:0",
+    "groupname": "crwdns122946:0crwdne122946:0",
+    "members": "crwdns122948:0crwdne122948:0",
+    "done": "crwdns122950:0crwdne122950:0"
+  },
+  "user-profile-screen": {
+    "title": "crwdns122952:0crwdne122952:0",
+    "name": "crwdns122954:0crwdne122954:0",
+    "phone-number": "crwdns122956:0crwdne122956:0",
+    "email": "crwdns122958:0crwdne122958:0",
+    "business-infos-title": "crwdns122960:0crwdne122960:0",
+    "business-name": "crwdns122962:0crwdne122962:0",
+    "business-position": "crwdns122964:0crwdne122964:0",
+    "supplier-infos-title": "crwdns122966:0crwdne122966:0",
+    "supplier-min-amount": "crwdns122968:0crwdne122968:0",
+    "supplier-delivery-costs": "crwdns122970:0crwdne122970:0",
+    "supplier-cut-off": "crwdns122972:0crwdne122972:0",
+    "choose-photo": "crwdns122974:0crwdne122974:0",
+    "take-photo": "crwdns122976:0crwdne122976:0",
+    "delete-photo": "crwdns122978:0crwdne122978:0",
+    "cancel": "crwdns122980:0crwdne122980:0",
+    "edit": "crwdns122982:0crwdne122982:0",
+    "save": "crwdns122984:0crwdne122984:0"
+  },
+  "components": {
+    "connection-status": {
+      "offline": "crwdns122986:0crwdne122986:0"
+    }
+  },
+  "add-product-screen": {
+    "title-add": "crwdns122988:0crwdne122988:0",
+    "title-edit": "crwdns122990:0crwdne122990:0",
+    "product-name": "crwdns122992:0crwdne122992:0",
+    "product-name-placeholder": "crwdns122994:0crwdne122994:0",
+    "units": "crwdns122996:0crwdne122996:0",
+    "units-placeholder": "crwdns122998:0crwdne122998:0",
+    "id-product": "crwdns123000:0crwdne123000:0",
+    "id-product-placeholder": "crwdns123002:0crwdne123002:0",
+    "done": "crwdns123004:0crwdne123004:0",
+    "cancel": "crwdns123006:0crwdne123006:0",
+    "delete-product": "crwdns123008:0crwdne123008:0"
+  }
+}

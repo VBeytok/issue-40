@@ -27,7 +27,7 @@ jobs:
       with:
         debug_mode: true
         
-        crowdin_branch_name: 'beytok\ test'
+        crowdin_branch_name: 'beytok test'
         localization_branch_name: l10n-beytok
         upload_translations: false
         download_translations: true

@@ -23,7 +23,7 @@ jobs:
     
     # Runs the Crowdin action command
     - name: crowdin action
-      uses: VBeytok/crowdin-action@master
+      uses: crowdin/github-action@master
       with:
         debug_mode: true
         

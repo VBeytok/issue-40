@@ -31,9 +31,11 @@ jobs:
         localization_branch_name: l10n-beytok
         upload_translations: true
         upload_language: 'fr'
+        auto_approve_imported: true
         
         download_translations: true
         download_language: 'it'
+        skip_untranslated_files: true
 
         # global options
         config: 'beytok_branch/crowdin.yml'

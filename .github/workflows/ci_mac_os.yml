@@ -1,10 +1,9 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI beytok branch
+name: CI Mac OS
 
 # Controls when the action will run. 
 on:
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -13,7 +12,7 @@ jobs:
   # This workflow contains a single job called "build"
   synchronize-with-crowdin:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: macos-11.0
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -27,7 +26,7 @@ jobs:
       with:
         debug_mode: true
         
-        crowdin_branch_name: 'beytok test'
+        crowdin_branch_name: 'mac os'
         localization_branch_name: l10n-beytok
         upload_translations: true
         upload_language: 'fr'
